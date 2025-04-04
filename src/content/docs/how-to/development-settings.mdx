@@ -1,0 +1,13 @@
+--- 
+title: Development Settings
+---
+import { Code } from '@astrojs/starlight/components';
+import importedCode from '../../../../code/IntroProject/Intro/Properties/launchSettings.json?raw'
+export const highlights = ["1337", "false"];
+
+While you are doing development work, you can assign a temporary TCP port for running your application.
+
+Development-time settings are in the `/Properties/launchSettings.json` file.
+
+<Code code={importedCode} lang="json" title="launchSettings.json" mark={highlights} />
+
