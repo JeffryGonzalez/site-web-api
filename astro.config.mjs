@@ -10,7 +10,7 @@ export default defineConfig({
       starlight({
           title: 'Web API with .NET',
           social: {
-              github: 'https://github.com/withastro/starlight',
+              github: 'https://github.com/JeffryGonzalez/site-web-api',
           },
           sidebar: [
               {
